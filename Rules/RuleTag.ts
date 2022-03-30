@@ -1,6 +1,6 @@
 import { IRule } from "./IRule";
 
-class RuleTag implements IRule {
+export class RuleTag implements IRule {
     selfLink: RuleTag  = this
     tags:string[] = []
     size:number = 0

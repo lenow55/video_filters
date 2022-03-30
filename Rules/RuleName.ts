@@ -1,6 +1,6 @@
 import { IRule } from "./IRule";
 
-class RuleName implements IRule {
+export class RuleName implements IRule {
     selfLink: RuleName  = this
     name:string = ''
 

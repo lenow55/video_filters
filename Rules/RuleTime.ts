@@ -1,6 +1,6 @@
 import { IRule } from "./IRule";
 
-class RuleTime implements IRule {
+export class RuleTime implements IRule {
     selfLink: RuleTime  = this
     time: Number = 0
 

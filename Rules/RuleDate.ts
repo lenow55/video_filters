@@ -1,6 +1,6 @@
 import { IRule } from "./IRule";
 
-class RuleDate implements IRule {
+export class RuleDate implements IRule {
     selfLink: RuleDate  = this
     date: string
     fillRule(rule: IRule): RuleDate {

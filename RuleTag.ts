@@ -1,8 +1,4 @@
-interface IRule {
-    fillRule(rule: IRule):RuleTag //Заполнить
-    applyRule():RuleTag//Применить
-    // deleteRule(rule: IRule):void//Удалить правило
-}
+import { IRule } from "./IRule";
 
 class RuleTag implements IRule {
     selfLink: RuleTag  = this

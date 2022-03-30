@@ -1,10 +1,4 @@
-import { isNullishCoalesce } from "typescript"
-
-interface IRule {
-    fillRule(rule: IRule):RuleTime //Заполнить
-    applyRule():RuleTime//Применить
-    // deleteRule(rule: IRule):void//Удалить правило
-}
+import { IRule } from "./IRule";
 
 class RuleTime implements IRule {
     selfLink: RuleTime  = this

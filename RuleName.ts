@@ -1,8 +1,4 @@
-interface IRule {
-    fillRule(rule: IRule):RuleName //Заполнить
-    applyRule():RuleName//Применить
-    // deleteRule(rule: IRule):void//Удалить правило
-}
+import { IRule } from "./IRule";
 
 class RuleName implements IRule {
     selfLink: RuleName  = this

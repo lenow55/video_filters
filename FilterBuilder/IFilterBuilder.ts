@@ -1,4 +1,4 @@
-import * as RuleHeaders from "../Rules/IRule"
+import { Filter } from "../Filters/Filter";
 export interface IFilterBuilder
 { }
 

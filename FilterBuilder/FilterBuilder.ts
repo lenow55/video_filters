@@ -1,4 +1,4 @@
-import {IRuleBuilder} from "./IRuleBuilder"
+import {IRuleBuilder} from "./IFilterBuilder"
 import * as RuleHeaders from "../Rules/IRule"
 
 class VideoRuleBuilder implements IRuleBuilder

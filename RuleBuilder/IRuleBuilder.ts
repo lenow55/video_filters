@@ -7,3 +7,5 @@ export interface IRuleBuilder
     addRuleTag(tags: string[]): void;
     getRules(): RuleHeaders.IRule[];
 }
+
+//продумать 

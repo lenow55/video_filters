@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/lenow/video_filters/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+AnonymousFunction965b8ada0100	built/Rules/IRule.js	/^Object.defineProperty(exports, "RuleDate", { enumerable: true, get: function () { return RuleDat/;"	f
+AnonymousFunction965b8ada0200	built/Rules/IRule.js	/^Object.defineProperty(exports, "RuleTime", { enumerable: true, get: function () { return RuleTim/;"	f
+AnonymousFunction965b8ada0300	built/Rules/IRule.js	/^Object.defineProperty(exports, "RuleName", { enumerable: true, get: function () { return RuleNam/;"	f
+AnonymousFunction965b8ada0400	built/Rules/IRule.js	/^Object.defineProperty(exports, "RuleTag", { enumerable: true, get: function () { return RuleTag_/;"	f
+Date	Rules/RuleDate.ts	/^    Date$/;"	p	class:RuleDate
+Filter	Filters/Filter.ts	/^export abstract class Filter$/;"	c
+Filter	built/Filters/Filter.js	/^class Filter {$/;"	c
+Filter_1	built/Filters/VideoFilter.js	/^const Filter_1 = require(".\/Filter");$/;"	C
+IFilterBuilder	FilterBuilder/IFilterBuilder.ts	/^export interface IFilterBuilder$/;"	i
+IFilterCommonBuilder	FilterBuilder/IFilterBuilder.ts	/^export interface IFilterCommonBuilder extends IFilterCustomBuilder, IFilterPresetBuilder$/;"	i
+IFilterCustomBuilder	FilterBuilder/IFilterBuilder.ts	/^export interface IFilterCustomBuilder extends IFilterBuilder$/;"	i
+IFilterPresetBuilder	FilterBuilder/IFilterBuilder.ts	/^export interface IFilterPresetBuilder extends IFilterBuilder$/;"	i
+IRule	Rules/IRule.ts	/^export interface IRule {$/;"	i
+RuleDate	Rules/RuleDate.ts	/^export class RuleDate implements IRule {$/;"	c
+RuleDate	built/Rules/RuleDate.js	/^class RuleDate {$/;"	c
+RuleDate_1	built/Rules/IRule.js	/^var RuleDate_1 = require(".\/RuleDate");$/;"	v
+RuleName	Rules/RuleName.ts	/^export class RuleName implements IRule {$/;"	c
+RuleName	built/Rules/RuleName.js	/^class RuleName {$/;"	c
+RuleName_1	built/Rules/IRule.js	/^var RuleName_1 = require(".\/RuleName");$/;"	v
+RuleTag	Rules/RuleTag.ts	/^export class RuleTag implements IRule {$/;"	c
+RuleTag	built/Rules/RuleTag.js	/^class RuleTag {$/;"	c
+RuleTag_1	built/Rules/IRule.js	/^var RuleTag_1 = require(".\/RuleTag");$/;"	v
+RuleTime	Rules/RuleTime.ts	/^export class RuleTime implements IRule {$/;"	c
+RuleTime	built/Rules/RuleTime.js	/^class RuleTime {$/;"	c
+RuleTime_1	built/Rules/IRule.js	/^var RuleTime_1 = require(".\/RuleTime");$/;"	v
+Test	Rules/RuleDate.ts	/^let Test = new RuleDate();$/;"	v
+Test	Rules/RuleTag.ts	/^let Test = new RuleTag();$/;"	v
+Test	built/Rules/RuleDate.js	/^let Test = new RuleDate();$/;"	v
+Test	built/Rules/RuleTag.js	/^let Test = new RuleTag();$/;"	v
+VideoFilter	Filters/VideoFilter.ts	/^export class VideoFilter extends Filter$/;"	c
+VideoFilter	built/Filters/VideoFilter.js	/^class VideoFilter extends Filter_1.Filter {$/;"	c
+VideoFilter_1	built/FilterBuilder/VideoFilterBuilder.js	/^const VideoFilter_1 = require("..\/Filters\/VideoFilter");$/;"	C
+VideoRuleBuilder	FilterBuilder/VideoFilterBuilder.ts	/^class VideoRuleBuilder implements IFilterBuilders.IFilterCustomBuilder$/;"	c
+VideoRuleBuilder	built/FilterBuilder/VideoFilterBuilder.js	/^class VideoRuleBuilder {$/;"	c
+addTag	Rules/RuleTag.ts	/^    public addTag(item: string, count: number): void{$/;"	m	class:RuleTag
+addTag	built/Rules/RuleTag.js	/^    addTag(item, count) {$/;"	m	class:RuleTag
+applyRule	Rules/IRule.ts	/^    applyRule(): any \/\/Применить$/;"	m	interface:IRule
+applyRule	Rules/RuleDate.ts	/^    applyRule(): RuleDate {$/;"	m	class:RuleDate
+applyRule	Rules/RuleName.ts	/^    applyRule(): RuleName {$/;"	m	class:RuleName
+applyRule	Rules/RuleTag.ts	/^    applyRule(): RuleTag {$/;"	m	class:RuleTag
+applyRule	Rules/RuleTime.ts	/^    applyRule(): RuleTime {$/;"	m	class:RuleTime
+applyRule	built/Rules/RuleDate.js	/^    applyRule() {$/;"	m	class:RuleDate
+applyRule	built/Rules/RuleName.js	/^    applyRule() {$/;"	m	class:RuleName
+applyRule	built/Rules/RuleTag.js	/^    applyRule() {$/;"	m	class:RuleTag
+applyRule	built/Rules/RuleTime.js	/^    applyRule() {$/;"	m	class:RuleTime
+build	FilterBuilder/IFilterBuilder.ts	/^    build(): Filter;$/;"	m	interface:IFilterCommonBuilder
+build	FilterBuilder/IFilterBuilder.ts	/^    build(): Filter;$/;"	m	interface:IFilterPresetBuilder
+build	FilterBuilder/IFilterBuilder.ts	/^    build(config: string): Filter;$/;"	m	interface:IFilterCommonBuilder
+build	FilterBuilder/IFilterBuilder.ts	/^    build(config: string): Filter;$/;"	m	interface:IFilterCustomBuilder
+build	built/FilterBuilder/VideoFilterBuilder.js	/^    build(config) {$/;"	m	class:VideoRuleBuilder
+builder	Filters/Filter.ts	/^    private builder: any;$/;"	p	class:Filter
+constructor	built/Rules/RuleDate.js	/^    constructor() {$/;"	m	class:RuleDate
+constructor	built/Rules/RuleName.js	/^    constructor() {$/;"	m	class:RuleName
+constructor	built/Rules/RuleTag.js	/^    constructor() {$/;"	m	class:RuleTag
+constructor	built/Rules/RuleTime.js	/^    constructor() {$/;"	m	class:RuleTime
+date	Rules/RuleDate.ts	/^    date: string$/;"	p	class:RuleDate
+deleteRule	Rules/RuleDate.ts	/^    deleteRule(rule: IRule): void {$/;"	m	class:RuleDate
+deleteRule	Rules/RuleName.ts	/^    deleteRule(rule: IRule): void {$/;"	m	class:RuleName
+deleteRule	Rules/RuleTag.ts	/^    deleteRule(rule: IRule): void {$/;"	m	class:RuleTag
+deleteRule	Rules/RuleTime.ts	/^    deleteRule(rule: IRule): void {$/;"	m	class:RuleTime
+deleteRule	built/Rules/RuleDate.js	/^    deleteRule(rule) {$/;"	m	class:RuleDate
+deleteRule	built/Rules/RuleName.js	/^    deleteRule(rule) {$/;"	m	class:RuleName
+deleteRule	built/Rules/RuleTag.js	/^    deleteRule(rule) {$/;"	m	class:RuleTag
+deleteRule	built/Rules/RuleTime.js	/^    deleteRule(rule) {$/;"	m	class:RuleTime
+fillRule	Rules/IRule.ts	/^    fillRule(rule: IRule): any \/\/Заполнить$/;"	m	interface:IRule
+fillRule	Rules/RuleDate.ts	/^    fillRule(rule: IRule): RuleDate {$/;"	m	class:RuleDate
+fillRule	Rules/RuleName.ts	/^    fillRule(rule: IRule): RuleName {$/;"	m	class:RuleName
+fillRule	Rules/RuleTag.ts	/^    fillRule(rule: IRule): RuleTag {$/;"	m	class:RuleTag
+fillRule	Rules/RuleTime.ts	/^    fillRule(rule: IRule): RuleTime {$/;"	m	class:RuleTime
+fillRule	built/Rules/RuleDate.js	/^    fillRule(rule) {$/;"	m	class:RuleDate
+fillRule	built/Rules/RuleName.js	/^    fillRule(rule) {$/;"	m	class:RuleName
+fillRule	built/Rules/RuleTag.js	/^    fillRule(rule) {$/;"	m	class:RuleTag
+fillRule	built/Rules/RuleTime.js	/^    fillRule(rule) {$/;"	m	class:RuleTime
+getDate	Rules/RuleDate.ts	/^    public getDate():string{$/;"	m	class:RuleDate
+getDate	built/Rules/RuleDate.js	/^    getDate() {$/;"	m	class:RuleDate
+getName	Rules/RuleName.ts	/^    public getName():string{$/;"	m	class:RuleName
+getName	built/Rules/RuleName.js	/^    getName() {$/;"	m	class:RuleName
+getTags	Rules/RuleTag.ts	/^    public getTags():string{$/;"	m	class:RuleTag
+getTags	built/Rules/RuleTag.js	/^    getTags() {$/;"	m	class:RuleTag
+getTime	Rules/RuleTime.ts	/^    getTime():Number{$/;"	m	class:RuleTime
+getTime	built/Rules/RuleTime.js	/^    getTime() {$/;"	m	class:RuleTime
+linksRule	Filters/Filter.ts	/^    private linksRule: any;$/;"	p	class:Filter
+name	Rules/RuleName.ts	/^    name:string = ''$/;"	p	class:RuleName
+selfLink	Rules/RuleDate.ts	/^    selfLink: RuleDate  = this$/;"	p	class:RuleDate
+selfLink	Rules/RuleName.ts	/^    selfLink: RuleName  = this$/;"	p	class:RuleName
+selfLink	Rules/RuleTag.ts	/^    selfLink: RuleTag  = this$/;"	p	class:RuleTag
+selfLink	Rules/RuleTime.ts	/^    selfLink: RuleTime  = this$/;"	p	class:RuleTime
+setDate	Rules/RuleDate.ts	/^    public setDate(item: string): void{$/;"	m	class:RuleDate
+setDate	built/Rules/RuleDate.js	/^    setDate(item) {$/;"	m	class:RuleDate
+setTime	Rules/RuleName.ts	/^    public setTime(item: string): void{$/;"	m	class:RuleName
+setTime	Rules/RuleTime.ts	/^    public setTime(item: string): void{$/;"	m	class:RuleTime
+setTime	built/Rules/RuleName.js	/^    setTime(item) {$/;"	m	class:RuleName
+setTime	built/Rules/RuleTime.js	/^    setTime(item) {$/;"	m	class:RuleTime
+size	Rules/RuleTag.ts	/^    size:number = 0$/;"	p	class:RuleTag
+tags	Rules/RuleTag.ts	/^    tags:string[] = []$/;"	p	class:RuleTag
+test	Rules/RuleName.ts	/^const test = new RuleName();$/;"	C
+test	Rules/RuleTime.ts	/^const test = new RuleTime();$/;"	C
+test	built/Rules/RuleName.js	/^const test = new RuleName();$/;"	C
+test	built/Rules/RuleTime.js	/^const test = new RuleTime();$/;"	C
+time	Rules/RuleTime.ts	/^    time: Number = 0$/;"	p	class:RuleTime
+video	Filters/VideoFilter.ts	/^    private video: string;$/;"	p	class:VideoFilter

@@ -31,9 +31,9 @@ export class RuleTag implements IRule {
     
 }
 
-let Test = new RuleTag();
+// let Test = new RuleTag();
 
-Test.addTag('First video', 3)
+// Test.addTag('First video', 3)
 
-console.log(Test.applyRule())
-console.log(Test.getTags())
+// console.log(Test.applyRule())
+// console.log(Test.getTags())

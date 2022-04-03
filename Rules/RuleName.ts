@@ -26,8 +26,8 @@ export class RuleName implements IRule {
     
 }
 
-const test = new RuleName();
+// const test = new RuleName();
 
-test.setTime('First video')
-console.log(test.applyRule())
-console.log(test.getName())
+// test.setTime('First video')
+// console.log(test.applyRule())
+// console.log(test.getName())

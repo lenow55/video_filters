@@ -2,7 +2,7 @@ import { IRule } from "./IRule";
 
 export class RuleDate implements IRule {
     selfLink: RuleDate  = this
-    date: string
+    date: Date
     fillRule(rule: IRule): RuleDate {
         return this.selfLink
     }
@@ -15,18 +15,19 @@ export class RuleDate implements IRule {
         // this.time = null
     }
 
-    public setDate(item: string): void{
+    public setDate(item: Date): void{
         this.date = item
     }
 
-    public getDate():string{
+    public getDate():Date{
         return this.date
     }
+    
 }
 
-let Test = new RuleDate();
+// let Test = new RuleDate();
 
-Test.setDate(Date())
+// Test.setDate(new Date())
 
-console.log(Test.applyRule())
-console.log(Test.getDate())
+// console.log(Test.applyRule())
+// console.log(Test.getDate())

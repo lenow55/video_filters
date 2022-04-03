@@ -60,7 +60,7 @@ export class RuleTime implements IRule {
     
 }
 
-const test = new RuleTime();
+// const test = new RuleTime();
 
-test.setTime('1')
-console.log(test.applyRule())
+// test.setTime('1')
+// console.log(test.applyRule())

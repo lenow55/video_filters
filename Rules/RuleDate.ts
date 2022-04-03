@@ -22,7 +22,6 @@ export class RuleDate implements IRule {
     public getDate():string{
         return this.date
     }
-    Date
 }
 
 let Test = new RuleDate();

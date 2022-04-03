@@ -8,22 +8,22 @@ class VideoRuleBuilder implements IFilterBuilders.IFilterCustomBuilder
     private addRuleTime(time: string): void //GOTO тут необходимо прояснить
                            //с типами
     {
-        this.videoFilter.pushRule(new RuleHeaders.RuleTime())
+        this.videoFilter.setRule(new RuleHeaders.RuleTime())
         console.log("addRuleTime");
     }
     private addRuleDate(date: string): void
     {
-        this.videoFilter.pushRule(new RuleHeaders.RuleDate())
+        this.videoFilter.setRule(new RuleHeaders.RuleDate())
         console.log("addRuleDate");
     }
     private addRuleName(name: string): void
     {
-        this.videoFilter.pushRule(new RuleHeaders.RuleName())
+        this.videoFilter.setRule(new RuleHeaders.RuleName())
         console.log("addRuleName");
     }
     private addRuleTag(tags: string[]): void
     {
-        this.videoFilter.pushRule(new RuleHeaders.RuleTag())
+        this.videoFilter.setRule(new RuleHeaders.RuleTag())
         console.log("addRuleTag");
     }
 

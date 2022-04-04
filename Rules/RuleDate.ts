@@ -15,6 +15,9 @@ export class RuleDate implements IRule {
         // this.time = null
     }
 
+    constructor(d: Date = new Date()){
+        this.date = d;
+    }
     public setDate(item: Date): void{
         this.date = item
     }

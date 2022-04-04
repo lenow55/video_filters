@@ -2,7 +2,7 @@ import { IRule } from "./IRule";
 
 export class RuleTime implements IRule {
     selfLink: RuleTime  = this
-    time: Number = 0
+    time: number
 
     fillRule(rule: IRule): RuleTime {
         return this.selfLink
@@ -14,6 +14,10 @@ export class RuleTime implements IRule {
 
     deleteRule(rule: IRule): void {
         // this.time = null
+    }
+
+    constructor(t: number = 0){
+        this.time = t;
     }
 
     public setTime(item: string): void{

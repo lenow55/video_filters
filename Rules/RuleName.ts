@@ -1,8 +1,8 @@
 import { IRule } from "./IRule";
 
 export class RuleName implements IRule {
-    selfLink: RuleName  = this
-    name:string = ''
+    private selfLink: RuleName  = this
+    private name:string
 
     fillRule(rule: IRule): RuleName {
         return this.selfLink
@@ -15,8 +15,12 @@ export class RuleName implements IRule {
     deleteRule(rule: IRule): void {
         // this.time = null
     }
+    
+    constructor(n: string){
+        this.name = n;
+    }
 
-    public setName(item: string): void{
+    public setName(item: string = ''): void{
         this.name = item        
     }
 

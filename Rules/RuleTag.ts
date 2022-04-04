@@ -2,7 +2,7 @@ import { IRule } from "./IRule";
 
 export class RuleTag implements IRule {
     selfLink: RuleTag  = this
-    tags:string[] = []
+    tags:string[]
     size:number = 0
     fillRule(rule: IRule): RuleTag {
         return this.selfLink
@@ -14,6 +14,10 @@ export class RuleTag implements IRule {
 
     deleteRule(rule: IRule): void {
         // this.time = null
+    }
+
+    constructor(t: string[] = []){
+        this.tags = t;
     }
 
     public addTag(items: string[]): void{

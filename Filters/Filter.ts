@@ -19,12 +19,10 @@ export class Filter
             return true;
         }
     }
-
-
 }
 
 const ruleN = new RuleName();
-ruleN.setTime('First video')
+ruleN.setName('First video')
 
 let filt = new Filter();
 let ruleD = new RuleDate();

@@ -16,11 +16,13 @@ export class RuleTag implements IRule {
         // this.time = null
     }
 
-    public addTag(item: string, count: number): void{
-        for (let index = 0; index < count; index++) {
-            this.tags.push(item)
+    public addTag(items: string[]): void{
+        for (let index = 0; index < items.length; index++) {
+            this.tags.push(items[index])
             this.size++
         }
+        // you can
+        // this.tags = items
     }
 
     public getTags():string{

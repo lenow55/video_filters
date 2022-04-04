@@ -16,7 +16,7 @@ export class RuleName implements IRule {
         // this.time = null
     }
 
-    public setTime(item: string): void{
+    public setName(item: string): void{
         this.name = item        
     }
 

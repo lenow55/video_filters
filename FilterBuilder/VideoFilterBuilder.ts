@@ -8,21 +8,29 @@ class VideoRuleBuilder implements IFilterBuilders.IFilterCustomBuilder
     private addRuleTime(time: string): void //GOTO тут необходимо прояснить
                            //с типами
     {
-        this.videoFilter.setRule(new RuleHeaders.RuleTime())
+        const rule: RuleHeaders.RuleTime = new RuleHeaders.RuleTime()
+        rule.setTime(time)
+        this.videoFilter.setRule(rule)
         console.log("addRuleTime");
     }
-    private addRuleDate(date: string): void
+    private addRuleDate(date: Date): void
     {
-        this.videoFilter.setRule(new RuleHeaders.RuleDate())
+        const rule: RuleHeaders.RuleDate = new RuleHeaders.RuleDate()
+        rule.setDate(date)
+        this.videoFilter.setRule(rule)
         console.log("addRuleDate");
     }
     private addRuleName(name: string): void
     {
-        this.videoFilter.setRule(new RuleHeaders.RuleName())
+        const rule: RuleHeaders.RuleName = new RuleHeaders.RuleName()
+        rule.setName(name)
+        this.videoFilter.setRule(rule)
         console.log("addRuleName");
     }
     private addRuleTag(tags: string[]): void
     {
+        const rule: RuleHeaders.RuleTag = new RuleHeaders.RuleTag()
+        rule.addTag(tags)
         this.videoFilter.setRule(new RuleHeaders.RuleTag())
         console.log("addRuleTag");
     }
@@ -32,7 +40,7 @@ class VideoRuleBuilder implements IFilterBuilders.IFilterCustomBuilder
         console.log("build VideoFilter")
         this.videoFilter = new VideoFilter()
         this.addRuleTag(["tag"])
-        this.addRuleDate("date")
+        this.addRuleDate(new Date())
         this.addRuleName("Name")
         this.addRuleTime("Time")
         return this.videoFilter

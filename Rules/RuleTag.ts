@@ -16,17 +16,18 @@ export class RuleTag implements IRule {
         // this.time = null
     }
 
-    constructor(t: string[] = []){
-        this.tags = t;
+    constructor({ tagsArray = [] }: { tagsArray: string[]; }){
+        this.tags = tagsArray.slice(0);
     }
 
-    public addTag(items: string[]): void{
+     public addTag(items: string[]): void{ // <= old version
+    //public addTag({ items }: { items: string[]; }): void{ // вроде бы при таком варианте он автоматически удалит переданный массив
         for (let index = 0; index < items.length; index++) {
             this.tags.push(items[index])
             this.size++
         }
         // you can
-        // this.tags = items
+        this.tags = items.slice(0)
     }
 
     public getTags():string{

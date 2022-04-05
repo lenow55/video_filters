@@ -23,7 +23,7 @@ class VideoRuleBuilder implements IFilterBuilders.IFilterCustomBuilder
     }
     private addRuleTag(tags: string[]): void
     {
-        this.videoFilter.setRule(new RuleHeaders.RuleTag(tags))
+        this.videoFilter.setRule(new RuleHeaders.RuleTag({ tagsArray: tags }))
         console.log("addRuleTag");
     }
 

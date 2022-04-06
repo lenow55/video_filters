@@ -4,7 +4,7 @@ import { RuleName } from "../Rules/RuleName";
 
 export class Filter
 {
-    private linksRule: IRule[];
+    private linksRule: IRule[] = [];
 
     public setRule({ rule }: { rule: IRule; }): void{
         this.linksRule.push(rule);

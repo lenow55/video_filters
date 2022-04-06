@@ -1,8 +1,8 @@
-import * as IFilterBuilders from "./IFilterBuilder"
+import * as IFilterBuilder from "./IFilterBuilder"
 import * as RuleHeaders from "../Rules/IRule"
 import {VideoFilter} from "../Filters/VideoFilter"
 
-class VideoRuleBuilder implements IFilterBuilders.IFilterCustomBuilder
+class VideoRuleBuilder implements IFilterBuilder.IFilterCustomBuilder
 {
     private videoFilter: VideoFilter
     private addRuleTime(time: number): void //GOTO тут необходимо прояснить

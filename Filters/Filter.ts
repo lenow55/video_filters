@@ -2,9 +2,9 @@ import { IRule } from "../Rules/IRule";
 import { RuleDate } from "../Rules/RuleDate";
 import { RuleName } from "../Rules/RuleName";
 
-export class Filter
+export abstract class Filter
 {
-    private linksRule: IRule[] = [];
+    protected linksRule: IRule[] = [];
 
     public setRule({ rule }: { rule: IRule; }): void{
         this.linksRule.push(rule);
@@ -18,6 +18,8 @@ export class Filter
             return true;
         }
     }
+    
+    abstract getFilterString()
 }
 
 // const ruleN = new RuleName();

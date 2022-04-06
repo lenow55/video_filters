@@ -5,9 +5,8 @@ import { RuleName } from "../Rules/RuleName";
 export class Filter
 {
     private linksRule: IRule[];
-    // private builder: RuleBuilder;
 
-    public setRule(rule: IRule): void{
+    public setRule({ rule }: { rule: IRule; }): void{
         this.linksRule.push(rule);
     }
 
@@ -21,15 +20,15 @@ export class Filter
     }
 }
 
-const ruleN = new RuleName();
-ruleN.setName('First video')
+// const ruleN = new RuleName();
+// ruleN.setName('First video')
 
-let filt = new Filter();
-let ruleD = new RuleDate();
-let date = new Date();
-ruleD.setDate(date);
+// let filt = new Filter();
+// let ruleD = new RuleDate();
+// let date = new Date();
+// ruleD.setDate(date);
 
-filt.setRule(ruleD);
-filt.setRule(ruleN);
+// filt.setRule(ruleD);
+// filt.setRule(ruleN);
 
-console.log(filt.checkRules(ruleD))
+// console.log(filt.checkRules(ruleD))
